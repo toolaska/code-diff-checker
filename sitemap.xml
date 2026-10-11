@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://diff.toolaska.com</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://diff.toolaska.com/about-us</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://diff.toolaska.com/contact-us</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://diff.toolaska.com/privacy-policy</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>0.60</priority>
+    </url>
+    <url>
+        <loc>https://diff.toolaska.com/terms-and-conditions</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://diff.toolaska.com/faqs</loc>
+        <lastmod>2025-07-29</lastmod>
+        <priority>0.70</priority>
+    </url>
+</urlset>

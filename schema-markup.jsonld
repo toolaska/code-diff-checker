@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://diff.toolaska.com/#webapp",
+      "name": "Quick Differ",
+      "alternateName": ["Toolaska Quick Differ", "Online Code Diff Checker", "Code Compare Tool"],
+      "url": "https://diff.toolaska.com",
+      "description": "Free online code diff tool for comparing code and text instantly with syntax highlighting",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Works in Chrome, Firefox, Safari, Edge, and all modern web browsers.",
+      "codeRepository": "https://github.com/toolaska/code-diff-checker",
+      "image": "https://diff.toolaska.com/assets/favicon-32x32.png",
+      "screenshot": "https://diff.toolaska.com/assets/favicon-32x32.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2150"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Quick Differ"
+      },
+      "publisher": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "featureList": [
+        "Side-by-side split diff and unified diff view modes",
+        "Instant real-time line-by-line code and text comparison",
+        "Syntax highlighting for HTML, CSS, JavaScript, JSON, and plain text",
+        "Inline character-level difference highlighting",
+        "Ignore whitespace and empty line comparison options",
+        "One-click copy and export difference reports",
+        "Swap original and modified text inputs with 1 click",
+        "100% client-side privacy with zero server uploads",
+        "Responsive dark and light themes",
+        "No signup or account registration required"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://toolaska.com/#organization",
+      "name": "Toolaska",
+      "url": "https://toolaska.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://toolaska.com/logo.webp"
+      },
+      "sameAs": [
+        "https://diff.toolaska.com",
+        "https://json.toolaska.com",
+        "https://compiler.toolaska.com",
+        "https://twitter.com/quickdiffer",
+        "https://github.com/toolaska/code-diff-checker",
+        "https://github.com/toolaska"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "info@toolaska.com",
+        "url": "https://diff.toolaska.com/contact-us"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://diff.toolaska.com/#website",
+      "url": "https://diff.toolaska.com/",
+      "name": "Quick Differ",
+      "description": "Free online code diff tool for comparing code and text instantly with syntax highlighting",
+      "publisher": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://diff.toolaska.com/faqs#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I compare two code files or text snippets online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paste your original snippet into the left editor pane and your updated or modified version into the right pane at diff.toolaska.com. Quick Differ immediately computes and highlights line-by-line additions, deletions, and character modifications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my code or text data kept private when using Quick Differ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick Differ performs 100% of diffing and syntax analysis locally inside your web browser using client-side JavaScript. No source code, text, or tokens are ever uploaded, logged, or transmitted to any server."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between split view and unified view?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Split view displays original and modified content side by side in two synchronized columns, ideal for comparing changes visually. Unified view merges both versions into a single sequential flow with standard +/- line annotations, similar to a Git patch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I ignore whitespace or empty lines when comparing code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick Differ provides toggle options to ignore whitespace discrepancies (tabs vs. spaces, trailing spaces) and ignore empty line additions, so you can focus strictly on meaningful logic changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What programming languages and file formats can I compare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quick Differ supports HTML, CSS, JavaScript, TypeScript, JSON, XML, Markdown, SQL, Python, YAML, and plain text with rich syntax highlighting and precise character-level difference highlighting."
+          }
+        }
+      ]
+    }
+  ]
+}

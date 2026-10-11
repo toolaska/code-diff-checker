@@ -1,0 +1,6 @@
+Toolaska Quick-Differ
+Online Code Diff Checker & Comparison Tool
+Production URL: https://diff.toolaska.com
+Repository: https://github.com/toolaska/code-diff-checker
+Git URL: https://github.com/toolaska/code-diff-checker.git
+Contact: info@toolaska.com
